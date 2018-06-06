@@ -9,9 +9,10 @@ class Person{
     }
 }
 
-const person1=new Person("rohit", 24, function(){console.log(" Namaskar I am "+ this.name)});
+const person1=new Person("rohit", 24, function(){console.log("Namaskar I am "+ this.name)});
 
 const person2 = new Person("Mohit ", 32, function(){console.log("Hello I am "+ this.name )})
 
 person2.print()
 person1.print()
+
